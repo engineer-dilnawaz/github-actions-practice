@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
       - name: Install NodeJS
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
         with:
           node-version: 18
       - name: Install dependencies
@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
       - name: Install NodeJS
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
         with:
           node-version: 18
       - name: Install dependencies
@@ -33,9 +33,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
       - name: Install NodeJS
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
         with:
           node-version: 18
       - name: Install dependencies
